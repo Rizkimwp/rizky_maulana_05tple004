@@ -36,6 +36,8 @@ const Sidebar: React.FC<{
           width: sidebarOpen ? "250px" : "70px",
           transition: "width 0.3s",
           zIndex: 1000,
+          overflowY: "auto", // Enable vertical scrolling
+          maxHeight: "100vh", // Limit height to viewport
         }}
       >
         {/* Bar untuk toggle sidebar */}

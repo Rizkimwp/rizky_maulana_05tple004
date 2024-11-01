@@ -15,6 +15,7 @@ import MaintenanceMode from "./components/Maintenance";
 const AppRoutes: React.FC = () => {
   return (
     <Routes>
+      <Route path="/" element={<Dashboard />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/karyawan" element={<Karyawan />} />
       <Route path="/jabatan" element={<Jabatan />} />
