@@ -9,10 +9,7 @@ import Divisi from "./pages/Divisi";
 import Absensi from "./pages/Absensi";
 import Izin from "./pages/Izin";
 import Lembur from "./pages/Lembur";
-import CetakSlip from "./pages/CetakSlip";
-import CetakLaporan from "./pages/CetakLaporan";
-import Slip from "./pages/Slip";
-import Pengguna from "./pages/Pengguna";
+
 import MaintenanceMode from "./components/Maintenance";
 
 const AppRoutes: React.FC = () => {
